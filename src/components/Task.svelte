@@ -27,7 +27,7 @@
 
   </script>
   
-  <div class="list-item">
+  <div class="list-item {task.state}">
     <label for="checked" class="checkbox" aria-label={`archiveTask-${task.id}`}>
         <input
           type="checkbox"

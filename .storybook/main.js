@@ -11,6 +11,8 @@ module.exports = {
     "@storybook/addon-essentials",
     "@storybook/addon-svelte-csf",
     "@storybook/addon-interactions",
+    '@storybook/addon-a11y',
+
   ],
   features: {
     postcss: false,
